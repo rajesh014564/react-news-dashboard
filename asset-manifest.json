@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sports-duniya-news-dashboard/static/css/main.f8e29100.css",
+    "main.js": "/sports-duniya-news-dashboard/static/js/main.4f140490.js",
+    "index.html": "/sports-duniya-news-dashboard/index.html",
+    "main.f8e29100.css.map": "/sports-duniya-news-dashboard/static/css/main.f8e29100.css.map",
+    "main.4f140490.js.map": "/sports-duniya-news-dashboard/static/js/main.4f140490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8e29100.css",
+    "static/js/main.4f140490.js"
+  ]
+}
