@@ -44,7 +44,7 @@
     "globals": "^15.14.0",
     "vite": "^6.0.5"
   },
-  "homepage": "http://rajesh014564.github.io/sports-duniya-news-dashboard",
+  "homepage": "https://rajesh014564.github.io/react-news-dashboard",
   "browserslist": {
     "production": [
       ">0.2%",
