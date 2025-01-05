@@ -1,0 +1,362 @@
+/* Slider and Global Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .app-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  .global-search-bar {
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  nav {
+    margin: 20px 0;
+  }
+  
+  nav button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #0056b3;
+  }
+  
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-section {
+    min-width: 100%;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .dashboard-page {
+    padding: 20px;
+  }
+  
+  .news-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .news-item {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .news-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #4caf50;
+  }
+  
+  .news-item p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #555;
+  }
+  /* Auth Page */
+.auth-page {
+    padding: 20px;
+  }
+  
+  .auth-page h2 {
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .login-input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Dashboard Search Bar */
+  .search-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .search-input[type='date'] {
+    max-width: 150px;
+  }
+  
+  .news-item p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  /* Dashboard Styling */
+.dashboard-page {
+    padding: 20px;
+  }
+  
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select,
+  .filters .filter-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .analytics {
+    margin-top: 20px;
+  }
+  
+  .payout-section {
+    margin-top: 20px;
+  }
+  
+  .payout-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .payout-section table th,
+  .payout-section table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .export-btn {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .export-btn:hover {
+    background-color: #45a049;
+  }
+
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .dashboard-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  /* Overview Section */
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .export-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .export-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Filters Section */
+  .filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters input,
+  .filters select,
+  .filters button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .filters button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background-color: #218838;
+  }
+  
+  /* Analytics Section */
+  .analytics {
+    margin-bottom: 20px;
+  }
+  
+  .analytics canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Payout Section */
+  .payout-section {
+    overflow-x: auto;
+  }
+  
+  .payout-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .payout-section th,
+  .payout-section td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .payout-section th {
+    background-color: #f8f9fa;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .overview {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filters {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filters input,
+    .filters select,
+    .filters button {
+      width: 100%;
+    }
+  
+    .payout-section table {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h2, h3 {
+      font-size: 1.5rem;
+    }
+  
+    .filters input,
+    .filters select,
+    .filters button {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .payout-section th,
+    .payout-section td {
+      padding: 8px;
+    }
+  }
